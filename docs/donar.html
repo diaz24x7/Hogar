@@ -50,11 +50,26 @@
   <main class="px-3">
 	  <h1>Donar</h1>
 	  <p class="lead">Con una donación me ayudas a seguir desarrollando contenido.</p>
-	  <form action="https://www.paypal.com/donate" method="post" target="_top">
-      <input type="hidden" name="hosted_button_id" value="PURYEX3VJU2YN" />
-      <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-      <img alt="" border="0" src="https://www.paypal.com/en_CO/i/scr/pixel.gif" width="1" height="1" />
-    </form>    
+    <br>
+
+    <div class="row align-items-center">
+      <div class="col">
+        <form action="https://www.paypal.com/donate" method="post" target="_top">
+          <input type="hidden" name="hosted_button_id" value="PURYEX3VJU2YN" />
+          <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+          <img alt="" border="0" src="https://www.paypal.com/en_CO/i/scr/pixel.gif" width="1" height="1" />
+        </form>
+      </div>
+      <div class="col bg-white">
+        <img src="QR.png" class="img-fluid" alt="Code QR PayPal">
+      </div>
+    </div>
+
+    <div class="input-group row">
+      <span class="input-group-text col" id="basic-addon1">https://www.paypal.com/donate?hosted_button_id=PURYEX3VJU2YN</span>
+      <button class="btn btn-outline-secondary col" type="button" id="button-addon">Copy</button>
+    </div>
+
   </main>
 
   <footer class="mt-auto text-white-50">	  
